@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Coming Soon - Start Bootstrap Theme</title>
+  <title>Bubble Tea Handmade in Nelson</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,56 +20,183 @@
 
   <!-- Custom styles for this template -->
   <link href="css/coming-soon.min.css" rel="stylesheet">
+  <link href="css/landing-page.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+
+  <link rel="icon" href="./img/logo.png" type="image/x-icon" />
+  
 
 </head>
 
 <body>
+  <div style="position:relative;height:100%;overflow:hidden;">
+    <div class="overlay"></div>
+    <video playsinline="playsinline" style="position:absolute!important;" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="mp4/bg.mp4" type="video/mp4">
+    </video>
 
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="mp4/bg.mp4" type="video/mp4">
-  </video>
-
-  <div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-12 my-auto">
-          <div class="masthead-content text-white py-5 py-md-0">
-            <h1 class="mb-3">Coming Soon!</h1>
-            <p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
-              <strong>January 2019</strong>! Sign up for updates using the form below!</p>
-            <div class="input-group input-group-newsletter">
-              <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="submit-button">
-              <div class="input-group-append">
-                <button class="btn btn-secondary" type="button" id="submit-button">Notify Me!</button>
+    <div class="masthead">
+      <div class="masthead-bg"></div>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-12 my-auto">
+            <div class="masthead-content text-white py-5 py-md-0" style="text-align:center;">
+              <div style="margin-bottom:1rem;">
+                <img src="./img/logo_512.png" style="max-width:150px;margin:auto;"/>
+              </div>
+              <h1 class="mb-3">Handmade Bubble Tea</h1>
+              <p class="mb-5">We're bringing <strong>Bubble Tea</strong> to Nelson! </p>
+              <div class="input-group input-group-newsletter">
+                <!-- <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="submit-button"> -->
+                <div class="input-group-append" style="margin:auto;">
+                  <a href="mailto:jun.a.kagaya@gmail.com">
+                    <button class="btn btn-secondary" type="button" id="submit-button">Contact us</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="social-icons">
+      <ul class="list-unstyled text-center mb-0">
+        <li class="list-unstyled-item">
+          <a href="#" style="box-shadow:2px 1px 2px rgba(0,0,0,.35);">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#" style="box-shadow:2px 1px 2px rgba(0,0,0,.35);">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="#" style="box-shadow:2px 1px 2px rgba(0,0,0,.35);">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 
-  <div class="social-icons">
-    <ul class="list-unstyled text-center mb-0">
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
+  <section class="features-icons bg-light text-center" style="padding:126px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex icon-img-container" style="height: 18rem!important;">
+                <img src="./img/bubble_tea.jpg" class="icon-img" />
+            </div>
+            <h3>What is Bubble Tea?</h3>
+            <p class="lead mb-0">Bubble Tea is traditionally a sweet milk tea drink with chewy <strong>pearls</strong> originating in Taiwan. It actually has nothing to do with bubbles!</p>
+            <br/>
+            <p class="lead mb-0">Recently it has taken an international turn and various vendors have emerged with their own variations of this beverage.</p>
+            <br/>
+            <p class="lead mb-0">We're creating a version that is unique to the local Nelson community and draws from the best of both worlds.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="features-icons bg-light text-center" style="padding:126px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex icon-img-container">
+                <img src="./img/locally_sourced.jpg" class="icon-img" />
+            </div>
+            <h3>Locally Sourced Ingredients</h3>
+            <p class="lead mb-0"></p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex icon-img-container">
+              <img src="./img/compost.jpg" class="icon-img" />
+            </div>
+            <h3>Environmentally Friendly</h3>
+            <p class="lead mb-0"></p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex icon-img-container">
+              <img src="./img/oriental.jpg" class="icon-img" />
+            </div>
+            <h3>Fusion of Cultures</h3>
+            <p class="lead mb-0"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/locally_sourced.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Locally Sourced Ingredients</h2>
+          <p class="lead mb-0">We're supporting the local community by sourcing ingredients locally and making the chewy pearls by hand. All we're taking is the recipe, our ingredients are from down the road.</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/compost.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Environmentally Friendly</h2>
+          <p class="lead mb-0">All of our packaging is biodegradable. We've said no to single-use disposable plastics and waste that destroys the planet. We want everything to go back to where it came from. The environment is worth more than a great bubble tea.</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/oriental.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Fusion of Food &amp; Cultures</h2>
+          <p class="lead mb-0">Bubble tea originated in Taiwan. It was a product for people who were used to different tastes. We're rethinking the original flavours and their fusion with the tastes of Nelson.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- style="border-top: 64px solid rgba(0,46,102,.8);" -->
+  <footer class="footer bg-light" >  
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="mailto:jun.a.kagaya@gmail.com">Contact us</a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Nelson Bubble Tea 2020. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

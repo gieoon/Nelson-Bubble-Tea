@@ -1,0 +1,14 @@
+.icon-img-container {
+    overflow: hidden;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1.6rem;
+}
+
+.icon-img {
+    max-height: 100%;
+    object-fit:contain;
+    margin: auto;
+    border-radius: 32px;
+    min-width: 60%;
+}
