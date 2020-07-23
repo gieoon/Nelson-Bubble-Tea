@@ -1,3 +1,10 @@
+@media screen and (max-width: 768px){
+    #main-description-wrapper {
+        padding: 1rem!important;
+        padding-top: 10rem!important;
+    }
+}
+
 .icon-img-container {
     overflow: hidden;
     width: fit-content;
@@ -13,7 +20,18 @@
     min-width: 60%;
 }
 
+/* @media screen and (max-width: 769px){
+    .icon-img-container {
+        width: 100%!important;
+    }
+} */
+
 .text-grey {
     color: rgba(255,255,255, .85);
     background-color: #002e66;
+}
+
+.social-icons {
+    bottom: 1rem!important;
+    margin-bottom: 0!important;
 }
