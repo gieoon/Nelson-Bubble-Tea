@@ -12,3 +12,8 @@
     border-radius: 32px;
     min-width: 60%;
 }
+
+.text-grey {
+    color: rgba(255,255,255, .85);
+    background-color: #002e66;
+}
